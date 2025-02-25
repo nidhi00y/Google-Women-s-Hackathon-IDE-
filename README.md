@@ -1,59 +1,35 @@
-# Web IDE with CodeT5 Integration
+# 💻 Modern Web IDE with AI Integration
 
-A modern web-based IDE with AI code generation powered by CodeT5.
+![IDE Screenshot](https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/1.PNG)
 
-## Features
-
-- Monaco Editor integration with syntax highlighting and IntelliSense
-- AI code generation using CodeT5
-- Split pane layout
-- File explorer
-- Command palette
-- Terminal emulation
-
-## Setup
-
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Create a `.env` file with your Hugging Face API key:
-   ```
-   VITE_HUGGINGFACE_API_KEY=your_api_key_here
-   ```
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-## AI Code Generation
-
-The IDE uses CodeT5, a state-of-the-art code generation model from Salesforce. To generate code:
-
-1. Open the AI Assistant panel
-2. Enter your code generation prompt
-3. Click the send button or press Enter
-4. The generated code will appear in the chat
-
-## Development
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run lint` - Run ESLint
-- `npm run format` - Format code with Prettier
-- `npm test` - Run tests
-
-## Environment Variables
-
-- `VITE_HUGGINGFACE_API_KEY` - Your Hugging Face API key for CodeT5 access
+A browser-based Integrated Development Environment (IDE) combining modern development tools with AI assistance.
 
 ## Tech Stack
+- **Frontend:** React 18.3, TypeScript, Vite, TailwindCSS
+- **Editor:** Monaco Editor (VS Code engine), React Split
+- **AI:** Google's Gemini AI API, Custom AI service
+- **State Management:** Zustand
+- **UI & Icons:** Lucide React, Custom components, cmdk command palette
 
-- React
-- TypeScript
-- Vite
-- Monaco Editor
-- CodeT5 (via Hugging Face API)
-- Tailwind CSS
-- Zustand
+## Key Features
+### **1. Editor & File Management**
+- Syntax highlighting, IntelliSense, code completion, themes
+- File explorer, create/delete files, multiple file type support
+
+### **2. AI-Powered Assistance**
+- Code generation, real-time suggestions, error handling, explanations
+
+### **3. Terminal & Developer Tools**
+- Built-in terminal, command history, Git integration, debugging
+
+### **4. UI & Performance**
+- Split pane layout, resizable panels, dark/light mode, responsive design
+- Code splitting, lazy loading, optimized rendering
+
+### **5. Accessibility & Customization**
+- Keyboard shortcuts, tooltips, focus management
+- Theme customization, font size control, persistent settings
+
+## Summary
+A modern, AI-powered IDE offering seamless coding, intelligent assistance, and an intuitive user experience for developers.
+
