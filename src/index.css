@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  @apply bg-[#1E1E2E] text-[#CDD6F4] font-sans;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gutter {
+  background-color: #313244;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transition: background-color 150ms ease;
+}
+
+.gutter:hover {
+  background-color: #45475A;
+}
+
+.gutter.gutter-vertical {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
+  cursor: row-resize;
+}
+
+.gutter.gutter-horizontal {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+  cursor: col-resize;
+}
+
+/* Monaco Editor Customizations */
+.monaco-editor {
+  padding: 0.5rem;
+}
+
+.monaco-editor .margin {
+  background-color: #1E1E2E !important;
+}
+
+.monaco-editor .minimap {
+  opacity: 0.6;
+}
+
+.monaco-editor .current-line {
+  border: none !important;
+  background-color: #313244 !important;
+}
+
+.monaco-editor .line-numbers {
+  color: #6C7086 !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1E1E2E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #45475A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #585B70;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .sidebar-expanded {
+    width: 100%;
+    position: absolute;
+    z-index: 50;
+  }
+  
+  .editor-container {
+    width: 100%;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* Terminal Styles */
+.terminal-container {
+  font-family: var(--font-mono);
+  line-height: 1.5;
+}
+
+.terminal-input {
+  caret-color: #CDD6F4;
+}
