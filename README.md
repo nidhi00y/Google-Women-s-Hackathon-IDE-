@@ -1,11 +1,14 @@
 # 💻 Modern Web IDE with AI Integration
+A browser-based Integrated Development Environment (IDE) combining modern development tools with AI assistance.
+
+##Images
 
 <img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/1.PNG" width="600" alt="IDE Screenshot" />
 <img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/2.PNG" width="300" alt="IDE Screenshot 2" />
 <img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/3.PNG" width="600" alt="IDE Screenshot 3" />
 <img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/4.PNG" width="600" alt="IDE Screenshot 4" />
 
-A browser-based Integrated Development Environment (IDE) combining modern development tools with AI assistance.
+
 
 ## Tech Stack
 - **Frontend:** React 18.3, TypeScript, Vite, TailwindCSS
