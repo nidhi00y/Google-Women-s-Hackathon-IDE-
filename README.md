@@ -1,6 +1,6 @@
 # 💻 Modern Web IDE with AI Integration
 
-![IDE Screenshot](https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/1.PNG)
+<img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/1.PNG" width="600" alt="IDE Screenshot" />
 
 A browser-based Integrated Development Environment (IDE) combining modern development tools with AI assistance.
 
