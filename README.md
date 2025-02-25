@@ -1,5 +1,5 @@
 # 💻 Modern Web IDE with AI Integration
-A browser-based Integrated Development Environment (IDE) combining modern development tools with AI assistance.
+A browser-based Integrated Development Environment (IDE) combining modern development tools with AI assistance. Made as a project for Google Girls's Hackathon 2025.
 
 ## Images
 
