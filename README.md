@@ -1,7 +1,7 @@
 # 💻 Modern Web IDE with AI Integration
 
 <img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/1.PNG" width="600" alt="IDE Screenshot" />
-<img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/2.PNG" width="600" alt="IDE Screenshot 2" />
+<img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/2.PNG" width="300" alt="IDE Screenshot 2" />
 <img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/3.PNG" width="600" alt="IDE Screenshot 3" />
 <img src="https://github.com/nidhi00y/Google-Women-s-Hackathon-IDE-/blob/main/4.PNG" width="600" alt="IDE Screenshot 4" />
 
